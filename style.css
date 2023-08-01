@@ -1,0 +1,59 @@
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bio {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.telegram:hover {
+  color: #2aabee;
+}
+
+.email:hover {
+  color: #0096fa;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
